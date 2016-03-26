@@ -9,6 +9,7 @@ function BeautifyCSS() {
             .replace(/,/g, ', ')
             .replace(/\n\t\n/g, "\n")
             .replace(/\n\t\*\//g, "\*\/")
+            .replace(/\n\s\*\//g, "\*\/")
             .replace(/\*\//g, "\*\/\n")
             .replace(/\n\n/g, "\n")
 

@@ -16,6 +16,8 @@ html, body{
 h2{
     width: 100%;
     text-align: center;
+    color: #004bcc;
+    text-decoration: underline;
 }
 #start{
     width: 150px;
@@ -35,15 +37,19 @@ select{
     width: 100px;
     height: 20px;
     margin: 0 0 0 10px;
+    outline-color: #004bcc;
+    background: transparent;
+    height: 30px;
 }
 textarea{
     width: calc(50% - 20px);
-    height: 400px;;
+    height: 400px;
     border-radius: 2px;
     margin: 10px;
     padding: 5px;
     font-family: courier;
     resize: none;
+    outline-color: #004bcc;
 }
 footer{
     width: 100%;

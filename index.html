@@ -5,26 +5,10 @@
         <title>Uglify and Beautify CSS</title>
         <script src="js/UglifyCSS.js" type="text/javascript"></script>
 		<script src="js/BeautifyCSS.js" type="text/javascript"></script>
+		<script src="js/main.js" type="text/javascript"></script>
 		<link rel="stylesheet" href="css/style.css" type="text/css">
     </head>
     <body>
-        <script>
-            function formatCode() {
-                mode = parseInt(document.getElementById('mode').value)
-                console.log(mode);
-                switch (mode) {
-                    case 1:
-                        UglifyCSS();
-                    break;
-                    case 2:
-                        BeautifyCSS();
-                    break;
-                    default: return false;
-
-                };
-            }
-        </script>
-
         <h2>Uglify and Beautify CSS</h2>
 
         <select id="mode">
@@ -37,11 +21,11 @@
             <textarea id="result" placeholder="UglifyCSS result"></textarea>
         </div>
 
-        <div id="start" onclick="formatCode()">Format code</div>
+        <div id="start" onclick="formatCode()">UglifyCSS</div>
 
         <footer>
             Uglify and Beautify CSS by
-            <a href="https://rtcoder.github.io/">rtCoder</a>
+            <a target="_blank" href="https://rtcoder.github.io/">rtCoder</a>
         </footer>
     </body>
 </html>
