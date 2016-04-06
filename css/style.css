@@ -28,14 +28,14 @@ h2{
     text-align: center;
     color: #eee;
     cursor: pointer;
-    margin: 10px calc((100% - 150px) / 2);
+    float: right;
+    margin: 0 10px 0 0;
 }
 #text-container{
     width: 100%;
 }
 select{
     width: 100px;
-    height: 20px;
     margin: 0 0 0 10px;
     outline-color: #004bcc;
     background: transparent;
