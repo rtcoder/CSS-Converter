@@ -3,7 +3,7 @@ function formatCode() {
 
     switch (mode) {
         case 1:
-            UglifyCSS();
+            MinifyCSS();
         break;
         case 2:
             BeautifyCSS();
@@ -22,11 +22,9 @@ document.onreadystatechange = function () {
 
         switch (val) {
             case 1:
-                result.placeholder = "UglifyCSS result";
                 button.innerHTML = "UglifyCSS";
             break;
             case 2:
-                result.placeholder = "BeautifyCSS result";
                 button.innerHTML = "BeautifyCSS";
             break;
             default: return false;
