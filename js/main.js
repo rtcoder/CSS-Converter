@@ -15,7 +15,6 @@ function formatCode() {
 document.onreadystatechange = function () {
     var select = document.getElementById('mode');
     var button = document.getElementById('start');
-    var result = document.getElementById('result');
 
     select.addEventListener("change", function () {
         var val = parseInt(this.value);
