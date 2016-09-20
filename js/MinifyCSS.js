@@ -1,4 +1,4 @@
-function MinifySS() {
+function MinifyCSS() {
     document.getElementById('result').value = "";
     var css = document.getElementById('source').value
             .replace(/\n/g, "")
