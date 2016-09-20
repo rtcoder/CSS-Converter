@@ -11,6 +11,9 @@ function BeautifyCSS() {
             .replace(/\n\t\*\//g, "\*\/")
             .replace(/\n\s\*\//g, "\*\/")
             .replace(/\*\//g, "\*\/\n")
+            .replace(/\t\*/g, "\*")
+            .replace(/\*/g, "\n\*")
+            .replace(/\/\n\*/g, "\/\*")
             .replace(/\n\n/g, "\n")
 
     document.getElementById('result').value = css;

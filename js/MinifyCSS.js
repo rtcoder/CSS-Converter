@@ -1,4 +1,4 @@
-function UglifyCSS() {
+function MinifySS() {
     document.getElementById('result').value = "";
     var css = document.getElementById('source').value
             .replace(/\n/g, "")
