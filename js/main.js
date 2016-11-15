@@ -21,7 +21,7 @@ document.onreadystatechange = function () {
 
         switch (val) {
             case 1:
-                button.innerHTML = "UglifyCSS";
+                button.innerHTML = "MinifyCSS";
             break;
             case 2:
                 button.innerHTML = "BeautifyCSS";
