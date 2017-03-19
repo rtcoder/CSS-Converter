@@ -6,6 +6,7 @@ function formatCode() {
             MinifyCSS();
         break;
         case 2:
+            MinifyCSS();
             BeautifyCSS();
         break;
         default: return false;

@@ -1,5 +1,4 @@
 function BeautifyCSS() {
-    document.getElementById('result').value = "";
     var css = document.getElementById('source').value
             .replace(/\}/g,"\n}\n")
             .replace(/\;\}/g,";\n}\n")
@@ -15,6 +14,7 @@ function BeautifyCSS() {
             .replace(/\*/g, "\n\*")
             .replace(/\/\n\*/g, "\/\*")
             .replace(/\n\n/g, "\n")
+            .replace(/\}\n\n\}/g, "\t\}\n\}")
 
-    document.getElementById('result').value = css;
+    document.getElementById('source').value = css;
 }

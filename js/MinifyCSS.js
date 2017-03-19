@@ -1,5 +1,4 @@
 function MinifyCSS() {
-    document.getElementById('result').value = "";
     var css = document.getElementById('source').value
             .replace(/\n/g, "")
             .replace(/\t/g,"")
@@ -12,5 +11,5 @@ function MinifyCSS() {
             .replace(/: /g, ':')
             .replace(/ :/g, ':');
 
-    document.getElementById('result').value = css;
+    document.getElementById('source').value = css;
 }
