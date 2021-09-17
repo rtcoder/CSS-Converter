@@ -1,1 +1,1 @@
-http://rtcoder.github.io/Uglify-and-Beautify-CSS/
+rtcoder.github.io/css-converter
